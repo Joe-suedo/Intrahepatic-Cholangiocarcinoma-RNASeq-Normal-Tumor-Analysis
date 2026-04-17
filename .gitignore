@@ -1,0 +1,12 @@
+icca/fastqc_1/
+icca/fastqc_2/
+icca/fastqc_1_data/
+icca/fastqc_2_data/
+icca/fastq-final/
+icca/fastq-raw/
+icca/fastq-trim/
+icca/quant/
+icca/ref_transcriptome/
+icca/rRNA-DB
+.*
+!.gitignore
