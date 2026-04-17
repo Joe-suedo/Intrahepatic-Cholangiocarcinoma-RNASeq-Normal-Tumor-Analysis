@@ -10,3 +10,5 @@ icca/ref_transcriptome/
 icca/rRNA-DB
 .*
 !.gitignore
+*.png
+!Rplots/

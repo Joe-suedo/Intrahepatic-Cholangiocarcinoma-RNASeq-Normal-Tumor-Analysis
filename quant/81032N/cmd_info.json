@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.11.4",
+    "libType": "A",
+    "index": "ref_transcriptome/GRCh38_idx",
+    "mates1": "fastq-final/81032N_R1.fastq.gz",
+    "mates2": "fastq-final/81032N_R2.fastq.gz",
+    "output": "quant/81032N",
+    "threads": "10",
+    "validateMappings": [],
+    "auxDir": "aux_info"
+}

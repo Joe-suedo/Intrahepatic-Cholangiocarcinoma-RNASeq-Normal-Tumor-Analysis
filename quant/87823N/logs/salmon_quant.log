@@ -1,0 +1,50 @@
+[2026-04-01 05:46:27.615] [jointLog] [info] setting maxHashResizeThreads to 10
+[2026-04-01 05:46:27.615] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2026-04-01 05:46:27.615] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2026-04-01 05:46:27.615] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2026-04-01 05:46:27.615] [jointLog] [info] parsing read library format
+[2026-04-01 05:46:27.615] [jointLog] [info] There is 1 library.
+[2026-04-01 05:46:27.622] [jointLog] [info] Loading pufferfish index
+[2026-04-01 05:46:27.625] [jointLog] [info] Loading pufferfish index.
+[2026-04-01 05:46:30.038] [jointLog] [info] done
+[2026-04-01 05:46:30.119] [jointLog] [info] Index contained 205541 targets
+[2026-04-01 05:46:30.322] [jointLog] [info] Number of decoys : 0
+[2026-04-01 05:46:32.189] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2026-04-01 06:03:37.476] [jointLog] [info] Computed 422,989 rich equivalence classes for further processing
+[2026-04-01 06:03:37.476] [jointLog] [info] Counted 33,926,741 total reads in the equivalence classes 
+[2026-04-01 06:03:37.477] [fileLog] [info] 
+At end of round 0
+==================
+Observed 36714889 total fragments (36714889 in most recent round)
+
+[2026-04-01 06:03:37.538] [jointLog] [info] Number of mappings discarded because of alignment score : 22,189,957
+[2026-04-01 06:03:37.538] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 858,928
+[2026-04-01 06:03:37.538] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2026-04-01 06:03:37.538] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 386,084
+[2026-04-01 06:03:37.539] [jointLog] [info] Mapping rate = 92.4059%
+[2026-04-01 06:03:37.539] [jointLog] [info] finished quantifyLibrary()
+[2026-04-01 06:03:37.565] [jointLog] [info] Starting optimizer
+[2026-04-01 06:03:38.158] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2026-04-01 06:03:38.241] [jointLog] [info] iteration = 0 | max rel diff. = 5302.596469989917
+[2026-04-01 06:03:45.998] [jointLog] [info] iteration = 100 | max rel diff. = 20.71443544089285
+[2026-04-01 06:03:53.697] [jointLog] [info] iteration = 200 | max rel diff. = 7.691172093294093
+[2026-04-01 06:04:01.389] [jointLog] [info] iteration = 300 | max rel diff. = 7.7066496008700485
+[2026-04-01 06:04:09.082] [jointLog] [info] iteration = 400 | max rel diff. = 3.282619178906219
+[2026-04-01 06:04:16.757] [jointLog] [info] iteration = 500 | max rel diff. = 0.8447139770023272
+[2026-04-01 06:04:24.430] [jointLog] [info] iteration = 600 | max rel diff. = 3.445111851253161
+[2026-04-01 06:04:32.103] [jointLog] [info] iteration = 700 | max rel diff. = 0.5196696456293078
+[2026-04-01 06:04:39.769] [jointLog] [info] iteration = 800 | max rel diff. = 1.520580376120838
+[2026-04-01 06:04:47.436] [jointLog] [info] iteration = 900 | max rel diff. = 8.45581862399036
+[2026-04-01 06:04:55.099] [jointLog] [info] iteration = 1000 | max rel diff. = 0.14859760928443885
+[2026-04-01 06:05:02.761] [jointLog] [info] iteration = 1100 | max rel diff. = 1.576162989278239
+[2026-04-01 06:05:10.423] [jointLog] [info] iteration = 1200 | max rel diff. = 0.43533191591858444
+[2026-04-01 06:05:18.078] [jointLog] [info] iteration = 1300 | max rel diff. = 0.1028633423680132
+[2026-04-01 06:05:25.726] [jointLog] [info] iteration = 1400 | max rel diff. = 0.08162931021129403
+[2026-04-01 06:05:33.371] [jointLog] [info] iteration = 1500 | max rel diff. = 0.018687589739042994
+[2026-04-01 06:05:41.016] [jointLog] [info] iteration = 1600 | max rel diff. = 0.11335790566902869
+[2026-04-01 06:05:48.654] [jointLog] [info] iteration = 1700 | max rel diff. = 0.05473436975779913
+[2026-04-01 06:05:54.073] [jointLog] [info] iteration = 1772 | max rel diff. = 0.005731467339671252
+[2026-04-01 06:05:54.114] [jointLog] [info] Finished optimizer
+[2026-04-01 06:05:54.114] [jointLog] [info] writing output 
+

@@ -1,0 +1,49 @@
+[2026-04-01 00:28:39.008] [jointLog] [info] setting maxHashResizeThreads to 10
+[2026-04-01 00:28:39.008] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2026-04-01 00:28:39.008] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2026-04-01 00:28:39.008] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2026-04-01 00:28:39.008] [jointLog] [info] parsing read library format
+[2026-04-01 00:28:39.008] [jointLog] [info] There is 1 library.
+[2026-04-01 00:28:39.013] [jointLog] [info] Loading pufferfish index
+[2026-04-01 00:28:39.015] [jointLog] [info] Loading pufferfish index.
+[2026-04-01 00:28:41.418] [jointLog] [info] done
+[2026-04-01 00:28:41.501] [jointLog] [info] Index contained 205541 targets
+[2026-04-01 00:28:41.703] [jointLog] [info] Number of decoys : 0
+[2026-04-01 00:28:43.509] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2026-04-01 00:41:03.051] [jointLog] [info] Computed 498,810 rich equivalence classes for further processing
+[2026-04-01 00:41:03.051] [jointLog] [info] Counted 26,904,271 total reads in the equivalence classes 
+[2026-04-01 00:41:03.052] [fileLog] [info] 
+At end of round 0
+==================
+Observed 30104257 total fragments (30104257 in most recent round)
+
+[2026-04-01 00:41:03.114] [jointLog] [info] Number of mappings discarded because of alignment score : 16,932,639
+[2026-04-01 00:41:03.114] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 1,160,959
+[2026-04-01 00:41:03.114] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 0
+[2026-04-01 00:41:03.114] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 143,900
+[2026-04-01 00:41:03.114] [jointLog] [info] Mapping rate = 89.3703%
+[2026-04-01 00:41:03.114] [jointLog] [info] finished quantifyLibrary()
+[2026-04-01 00:41:03.121] [jointLog] [info] Starting optimizer
+[2026-04-01 00:41:03.777] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2026-04-01 00:41:03.869] [jointLog] [info] iteration = 0 | max rel diff. = 6002.5311836853925
+[2026-04-01 00:41:12.566] [jointLog] [info] iteration = 100 | max rel diff. = 19.61495633611548
+[2026-04-01 00:41:21.210] [jointLog] [info] iteration = 200 | max rel diff. = 5.724746024874675
+[2026-04-01 00:41:29.848] [jointLog] [info] iteration = 300 | max rel diff. = 0.7308637028878634
+[2026-04-01 00:41:38.482] [jointLog] [info] iteration = 400 | max rel diff. = 3.5449701474217252
+[2026-04-01 00:41:47.113] [jointLog] [info] iteration = 500 | max rel diff. = 3.2523376188728825
+[2026-04-01 00:41:55.744] [jointLog] [info] iteration = 600 | max rel diff. = 0.2558644588218718
+[2026-04-01 00:42:04.371] [jointLog] [info] iteration = 700 | max rel diff. = 11.284228334032372
+[2026-04-01 00:42:12.997] [jointLog] [info] iteration = 800 | max rel diff. = 0.5886090653184067
+[2026-04-01 00:42:21.620] [jointLog] [info] iteration = 900 | max rel diff. = 1.5541792663265295
+[2026-04-01 00:42:30.243] [jointLog] [info] iteration = 1000 | max rel diff. = 0.20564588101345083
+[2026-04-01 00:42:38.861] [jointLog] [info] iteration = 1100 | max rel diff. = 0.08292934133666402
+[2026-04-01 00:42:47.478] [jointLog] [info] iteration = 1200 | max rel diff. = 0.02617705184311938
+[2026-04-01 00:42:56.096] [jointLog] [info] iteration = 1300 | max rel diff. = 2.556710692975469
+[2026-04-01 00:43:04.712] [jointLog] [info] iteration = 1400 | max rel diff. = 0.2337813897163714
+[2026-04-01 00:43:13.329] [jointLog] [info] iteration = 1500 | max rel diff. = 0.03430583472642374
+[2026-04-01 00:43:21.946] [jointLog] [info] iteration = 1600 | max rel diff. = 0.03426140683901449
+[2026-04-01 00:43:30.215] [jointLog] [info] iteration = 1697 | max rel diff. = 0.006563946419080334
+[2026-04-01 00:43:30.256] [jointLog] [info] Finished optimizer
+[2026-04-01 00:43:30.256] [jointLog] [info] writing output 
+
