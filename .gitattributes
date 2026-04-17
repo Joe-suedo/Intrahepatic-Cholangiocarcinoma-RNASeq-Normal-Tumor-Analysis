@@ -1,0 +1,7 @@
+# Ignore the Salmon quantification data from stats
+quant/* linguist-vendored
+
+# Force detection for your pipeline scripts
+*.sh linguist-detectable=true
+*.py linguist-detectable=true
+*.R linguist-detectable=true
